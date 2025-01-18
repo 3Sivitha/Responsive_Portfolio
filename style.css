@@ -293,29 +293,37 @@ img {
   border-radius: 0.5rem;
   z-index: var(--z-back);
 }
-.skills__html {
-  width: 95%;
-}
-.skills__css {
+.skills__java {
   width: 85%;
 }
-.skills__js {
-  width: 65%;
+.skills__py {
+  width: 80%;
 }
-.skills__react {
-  width: 55%;
+.skills__ml {
+  width: 50%;
+}
+.skills__ai {
+  width: 50%;
+}
+.skills__hcj {
+  width: 60%;
 }
 .skills__img {
-  border-radius: 0.5rem;
+  width: 100%; /* Ensures the image takes full width of its container */
+  height: auto; /* Maintains the aspect ratio */
+  object-fit: cover; /* Ensures the image covers the entire container */
+  margin: 0 auto; /* Centers the image if needed */
+  display: block; /* Centers the image if needed */
 }
+
 
 /* ===== WORK =====*/
 .work__container {
   row-gap: 2rem;
 }
 .work__img {
-  box-shadow: 0px 4px 25px rgba(14, 36, 49, 0.15);
-  border-radius: 0.5rem;
+  box-shadow: 0px 25px 25px rgba(14, 36, 49, 0.15);
+  border-radius: 1cm;
   overflow: hidden;
 }
 .work__img img {
